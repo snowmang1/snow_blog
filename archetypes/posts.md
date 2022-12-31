@@ -2,14 +2,23 @@
 author: snowmang1
 title: {{ replace .Name "-" " " | title }}
 date: {{ .Date }}
-tag: ["HERE"]
+description: NOT-DONE
+tags:
+    - NOT-DONE
 series:
-    - HERE
+    - NOT-DONE
+aliases:
+    - NOT-DONE
 math: true
 draft: true
-description: check for Katex integration
 ---
 
 {{ partial "math.html" . }}
 
-<!---------------------- Body ---------------------->
+<!-----------------------Body----------------------->
+
+
+
+<!----------------------Footer---------------------->
+
+{{ partial "footer.html" }}

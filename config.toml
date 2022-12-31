@@ -3,9 +3,97 @@ languageCode = 'en-us'
 title = 'snowmang1 Blog'
 enableGitInfo = true
 theme = 'github.com/canstand/compost'
+enableEmoji = true
+enableRobotsTXT = true
+paginate = 5
 
 [build]
 _merge = 'deep'
 
 [markup]
 _merge = 'deep'
+
+[minify]
+_merge = 'deep'
+
+[module]
+[[module.imports]]
+# We include the theme by "../.." above, but we need one module import for Hugo to detect us as a Hugo Module.
+path="github.com/bep/empty-hugo-module"
+
+[author]
+  name = "Evan Drake"
+  image = "img/author.jpeg"
+  links = [
+    { github = "https://github.com/snowmang1" },
+  ]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+[params]
+  colorScheme = "auto"
+
+[params.homepage]
+  showRecent = true
+
+[params.article]
+  showBreadcrumbs = true
+  showEdit = true
+  editURL = "https://github.com/snowmang1/snow_blog/tree/trunk/content"
+  editAppendPath = true
+
+[[menu.main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Blog"
+  pageRef = "posts"
+  weight = 10
+
+[[menu.main]]
+  name = "Tags"
+  pageRef = "tags"
+  weight = 20
+
+[[menu.main]]
+  name = "GitHub"
+  url = "https://github.com/snowmang1/snow_blog.git"
+  weight = 30
+
+[languages]
+[languages.en]
+  weight = 1
+[languages.zh]
+  weight = 2
+  languageName = '简体中文'
+  hasCJKLanguage = true
+[[languages.zh.menu.main]]
+  name = "首页"
+  pageRef = "/"
+  weight = 1
+
+[[languages.zh.menu.main]]
+  name = "文章"
+  pageRef = "posts"
+  title = "文章列表"
+  weight = 10
+
+[[languages.zh.menu.main]]
+  name = "标签"
+  pageRef = "tags"
+  title = "标签列表"
+  weight = 20
+
+[[languages.zh.menu.main]]
+  name = "GitHub"
+  url = "https://github.com/canstand/compost"
+  weight = 30
+[languages.zh.params.article]
+dateFormat = "2006/01/02"
+showDraftLabel = true
+
