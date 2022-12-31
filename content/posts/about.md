@@ -1,19 +1,26 @@
 ---
 author: snowmang1
 title: About
-date: 2022-12-30T17:21:15-08:00
-tag: ["HERE"]
+date: 2022-12-31T13:10:01-08:00
+description: check for Katex integration
+tags:
+    - About
+series:
+    - About_Blog
+categories:
+    - About
+aliases:
+    - about-1
 math: true
 draft: true
-description: explanation of my blog
 ---
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js" integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
 
-<!---------------------- Body ---------------------->
+<!-----------------------Body----------------------->
 
-$$
-    x = y
-$$
+
+<!----------------------Footer---------------------->
+<hr>
