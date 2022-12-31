@@ -1,0 +1,3 @@
+[submodule "compost"]
+	path = compost
+	url = git@github.com:canstand/compost.git

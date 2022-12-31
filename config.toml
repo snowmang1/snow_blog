@@ -1,0 +1,11 @@
+baseURL = 'http://snow_blog.org/'
+languageCode = 'en-us'
+title = 'Snowmang1 Blog'
+theme = 'github.com/canstand/compost'
+enableGitInfo = true
+
+[build]
+_merge = 'deep'
+
+[markup]
+_merge = 'deep'

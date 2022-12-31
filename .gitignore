@@ -1,0 +1,4 @@
+
+go.sum
+package-lock.json
+.hugo_build.lock
