@@ -1,16 +1,10 @@
 ---
 author: snowmang1
-title: About
-date: 2022-12-31T13:10:01-08:00
-description: check for Katex integration
-tags:
-    - About
-series:
-    - About_Blog
-categories:
-    - About
+title: About This Blog
+date: 2022-12-31T19:15:54-08:00
+description: A little explanation of my blog
 aliases:
-    - about-1
+    - about-0
 math: true
 draft: true
 ---
@@ -19,8 +13,15 @@ draft: true
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js" integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
 
+
 <!-----------------------Body----------------------->
+
+## Hello, my name is Evan Drake
+
+I am a student of computer science (and some surrounding areas).
 
 
 <!----------------------Footer---------------------->
+
 <hr>
+
