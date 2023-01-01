@@ -47,6 +47,7 @@ jobs:
         uses: actions/configure-pages@v2
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Node install postcss
         run: npm install postcss-cli
       - name: Build with Hugo
         env:
