@@ -14,7 +14,6 @@ draft: true
 ---
 
 {{ partial "math.html" . }}
-{{ partial "toc.html" }}
 
 <!-----------------------Body----------------------->
 
