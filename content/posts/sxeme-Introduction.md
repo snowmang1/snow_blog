@@ -33,7 +33,7 @@ draft: false
     </p>
     <!-- compiler structure -->
     <p>
-    The implantation will be a standard compiler implantation scanner -> parser -> IR -> LLVM. My focus on this project will
+    This will be a standard compiler implantation scanner -> parser -> IR -> LLVM. My focus on this project will
     be Rust-like *Errors*. The Errors given by this compiler take inspiration
     from Rust, they will in theory give critical debug info such as: line #, error msg, column #, example
     of correct code. The speed will come from my IR implementations. Paired with LLVMs natural speed,
