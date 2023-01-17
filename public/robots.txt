@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: http://snow_blog.org/sitemap.xml
