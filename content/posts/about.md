@@ -22,18 +22,20 @@ draft: false
 ### <cite>My Interests[^1]</cite>
 I hope to talk about many different topics here. My favorite genre of computer science
 thus far in my studies has been language & compiler design. However I also have interests
-in systems, optimization, and parallelism. So much of this blog will have to do with these
-ideas.
+in systems, optimization, and parallelism. Naturally much of this blog will have to do with
+these idea's, though not all of it.
 
 ### Format
 - Long form
 - [Dialectic](https://www.merriam-webster.com/dictionary/dialectic) when possible
-    - This is actually the purpose of my making a blog, as a form to learn. XD
-- Code included
-- I plan to take any form of comment via the email attached to my Github account
+    - This is actually the purpose of my making a blog; as a form to learn.
+- Code included (when possible)
+- I plan to take any form of comment via the email attached to my GitHub account
 - Markdown with LaTeX (and an RSS feed once I get it working)
+- The goal is to post monthly
+    - with this in mind know that every post will not be a complete project
 
-Please enjoy your stay!! <3
+Please enjoy your stay!! ❣️
 
 All content on this blog is and will remain opinion based content none of this is formal or
 published so it will remain simply my opinion.
