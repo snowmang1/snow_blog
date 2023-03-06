@@ -25,7 +25,11 @@ draft: false
 <div style="text-align: center"> 
     <!-- overview of project -->
     <p>
+<<<<<<< HEAD
     To give an overview Scheme is a Lisp derivative functional language with an emphasis on simplistic syntax.
+=======
+    To give an overview, Scheme is a Lisp derivative functional language with an emphesis on simplistic syntax.
+>>>>>>> origin/trunk
     I chose this language b/c of its power and simplicity. Scheme uses a delimiter surrounded prefix notation
     for function execution which makes it incredibly compact (if that is the goal), or explicit & easy to read.
     Scheme has a small token table making it easier to make a parser for it. The difficulty I see with making a
@@ -33,9 +37,15 @@ draft: false
     </p>
     <!-- compiler structure -->
     <p>
+<<<<<<< HEAD
     I am using a common compiler implantation scanner -> parser -> IR(LLVM IR) -> binary. My focus on this project will
     be Rust-like *Errors*. The Errors given by this compiler will in theory give critical debug info
     such as: _line #_, _error msg_, _column #_, _correct implementation_
+=======
+    This will be a standard compiler implantation scanner -> parser -> IR -> LLVM. My focus on this project will
+    be Rust-like *Errors*. The Errors given by this compiler take inspiration
+    from Rust, they will in theory give critical debug info such as: line #, error msg, column #, example
+>>>>>>> origin/trunk
     of correct code. The speed will come from my IR implementations. Paired with LLVMs natural speed,
     performance should not be an issue.
     </p>
